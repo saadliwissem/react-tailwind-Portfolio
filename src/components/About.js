@@ -76,7 +76,7 @@ const About = () => {
             <div className="flex items-center">
               <button className="btn btn-lg">Contact me</button>
               <pre> </pre>
-              <a href="" className="text-gradient btn-link ">
+              <a className="text-gradient btn-link ">
                 {" "}
                 my portfolio
               </a>
