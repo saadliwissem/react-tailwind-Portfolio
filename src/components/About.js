@@ -13,7 +13,7 @@ const About = () => {
     threshold: 0.5,
   });
   return (
-    <section className="section" id="about" ref={ref}>
+    <section className="section " id="about" ref={ref}>
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg: gap-x-20 lg:gap-y-0 h-screen">
           {/*img */}
@@ -22,7 +22,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top "
           ></motion.div>
           {/*text */}
           <motion.div
@@ -42,7 +42,7 @@ const About = () => {
             <div className="flex grap-x-6 lg:grap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={7} dura tion={3} /> : null}
+                  {InView ? <CountUp start={0} end={7} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px] ">
                   year of <br />
@@ -52,7 +52,7 @@ const About = () => {
               <pre> </pre>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={15} dura tion={3} /> : null}
+                  {InView ? <CountUp start={0} end={15} duration={3} /> : null}
                   K+
                 </div>
 
@@ -64,7 +64,7 @@ const About = () => {
               <pre> </pre>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={13} dura tion={3} /> : null}
+                  {InView ? <CountUp start={0} end={13} duration={3} /> : null}
                   K+
                 </div>
                 <div className="font-primary text-sm tracking-[2px] ">
@@ -76,7 +76,7 @@ const About = () => {
             <div className="flex items-center">
               <button className="btn btn-lg">Contact me</button>
               <pre> </pre>
-              <a className="text-gradient btn-link ">
+              <a href="www.facebook.com/dycard.shigaraki.9" className="text-gradient btn-link ">
                 {" "}
                 my portfolio
               </a>
